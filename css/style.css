@@ -1,0 +1,82 @@
+/* &display=swap */
+@import "null.css";
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+
+body {
+	font-family: "Larsseit", sans-serif;
+}
+[class*="__container"] {
+	margin: 0px auto;
+	max-width: 1130px;
+}
+
+.header {
+	margin: 27px 0px 0px 0px;
+}
+.header__container {
+	display: flex;
+}
+.header__logo {
+	margin: 0px 319px 0px 0px;
+}
+.logo {
+	font-size: 24px;
+	line-height: 112.5%;
+	letter-spacing: -0.035em;
+	color: #62d0df;
+}
+.logo:hover {
+	text-decoration: underline;
+}
+.header__menu {
+	margin: 0px 308px 0px 0px;
+}
+.menu {
+}
+.menu__item {
+}
+.menu__item:hover {
+	text-decoration: underline;
+}
+.menu__link {
+}
+.header__button {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	padding: 0px 30px;
+	background-color: #62d0df;
+	border-radius: 50px;
+	transition: all 0.3s ease 0s;
+}
+.header__button:hover {
+	background-color: #47a6b3;
+}
